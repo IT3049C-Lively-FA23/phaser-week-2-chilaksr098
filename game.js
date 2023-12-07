@@ -8,6 +8,8 @@ class mainScene {
   create() {
     this.player = this.physics.add.sprite(100, 100, "player");
     this.dot = this.physics.add.sprite(300, 300, "dot");
+
+    this.score = 0;
     
     let style = { font: '20px Arial', fill: '#fff' };
 
